@@ -1,0 +1,14 @@
+.box{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: 3px solid red;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}

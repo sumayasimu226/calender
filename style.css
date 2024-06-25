@@ -1,0 +1,51 @@
+.day,.week{
+    width: 75px;
+    height: 75px;
+    border: 3px solid blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: crimson;
+    color: aqua;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.day:hover{
+    background-color: black;
+    color: aqua;
+    box-shadow: 20px 15px 20px green;
+    transform: scale(1.5);
+    
+}
+.calender-container{
+    width: 80%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+}
+.week{
+    background-color: brown;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    border: 3px solid red;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
